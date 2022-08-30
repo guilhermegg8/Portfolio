@@ -162,12 +162,13 @@ section .title::after{
 .scroll-up-btn:hover{
     filter: brightness(90%);
 }
-
+/*
+https://img.freepik.com/free-vector/dark-low-poly-background_1048-7971.jpg?size=626&ext=jpg */
 
 /* home section styling */
 .home{
     display: flex;
-    background: url(https://img.freepik.com/free-vector/dark-low-poly-background_1048-7971.jpg?size=626&ext=jpg) no-repeat center;
+    background: url(https://i.pinimg.com/originals/54/8d/42/548d42eb7188b60b3c1cc9c3d0e97502.jpg) no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -226,7 +227,7 @@ section .title::after{
     height: 400px;
     width: 400px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 50%;
 }
 .about .about-content .right{
     width: 55%;
